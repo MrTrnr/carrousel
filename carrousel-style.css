@@ -21,6 +21,7 @@ footer{
 .prev, .next{
 	color: green;
 	font-size: 3em;
+	cursor:  pointer; /*modifier le pointeur de la souris en main avec index pointé*/
 }
 
 .boutons{
@@ -31,14 +32,12 @@ footer{
 
 .prev:hover{
   color: white;
-  text-decoration: none;
   background-color: #FFCC00;
   border-radius: 10%;
 }
 
 .next:hover{
   color: white;
-  text-decoration: none;
   background-color: #FFCC00;
   border-radius: 10%;
 }
@@ -72,7 +71,7 @@ footer{
   	animation: dezoom 1s;
 }
 .gallerie img{
-	width : 100px;
+	width : 100px; 
 }
 
 
