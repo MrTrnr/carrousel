@@ -68,7 +68,16 @@ footer{
 
 #carrousel img{
 	height : 200px;
+	position: relative;
+  	animation: dezoom 1s;
 }
 .gallerie img{
 	width : 100px;
+}
+
+
+
+@keyframes dezoom {
+  from {height : 20px;}
+  to {height: 200px;}
 }
